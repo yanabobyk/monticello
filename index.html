@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monticello</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/fav-icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script async src="https://kit.fontawesome.com/6cc05e1e8e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__fixed">
+            <div class="header__navigation">
+                <img src="./assets/img/svg/logo.svg" alt="Company Logo" class="logo-img">
+                <nav class="nav-menu">
+                    <input type="checkbox" class="burger" id="nav-burger">
+                    <label for="nav-burger" class="burger-img"></label>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <span class="dot"></span>                       
+                            <a href="#about" class="menu__item--link">About us</a>
+                        </li>
+                        <li class="menu__item">
+                            <span class="dot"></span> 
+                            <a href="#projects" class="menu__item--link">Projects</a>
+                        </li>
+                        <li class="menu__item">
+                            <span class="dot"></span> 
+                            <a href="#news" class="menu__item--link">News</a>
+                        </li>
+                        <li class="menu__item">
+                            <span class="dot"></span> 
+                            <a href="#contact" class="menu__item--link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="nav-social nav-social-header">
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="#" class = "social__link">
+                                <img src="./assets/img/svg/facebook.svg" alt="Facebook Icon" class="social__link--img">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class = "social__link">
+                                <img src="./assets/img/svg/twitter.svg" alt="Twitter Icon" class="social__link--img">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class = "social__link">
+                                <img src="./assets/img/svg/insta.svg" alt="Insta Icon" class="social__link--img">
+                            </a>
+                        </li>
+                    </ul>    
+                </nav>
+            </div>   
+        </div>
+        
+        <section class="slider">
+            <div class="slider-slide">
+                <div class="slider__content sl-content">
+                    <h2 class="slider__content--title ">SIMPLE & MODERN</h2>
+                    <h4 class="slider__content--subtitle ">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
+                    <a href="#main">
+                        <img src="./assets/img/svg/arrow-header.svg" alt="arrow" class="arrow">
+                    </a>
+                </div>
+                <img src="./assets/img/banner_slide_1.jpg" alt="Picture of a building" class="slider-slide__img">
+            </div>
+            <div class="slider-slide">
+                <div class="slider__content sl-content">
+                    <h2 class="slider__content--title ">SIMPLE & MODERN</h2>
+                    <h4 class="slider__content--subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
+                    <a href="#main">
+                        <img src="./assets/img/svg/arrow-header.svg" alt="arrow" class="arrow">
+                    </a>
+                </div>
+                <img src="./assets/img/banner_slide_2.jpg" alt="Picture of a building" class="slider-slide__img">
+            </div>
+            <div class="slider-slide">
+                <div class="slider__content sl-content">
+                    <h2 class="slider__content--title ">SIMPLE & MODERN</h2>
+                    <h4 class="slider__content--subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
+                    <a href="#main" class="slider__content--link">
+                        <img src="./assets/img/svg/arrow-header.svg" alt="arrow" class="arrow">
+                    </a>
+                </div>
+                <img src="./assets/img/banner_slide_3.jpg" alt="Picture of a building" class="slider-slide__img">
+            </div>
+            <div class="slider-slide">
+                <div class="slider__content sl-content">
+                    <h2 class="slider__content--title ">SIMPLE & MODERN</h2>
+                    <h4 class="slider__content--subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
+                    <a href="#main">
+                        <img src="./assets/img/svg/arrow-header.svg" alt="arrow" class="arrow">
+                    </a>
+                </div>
+                <img src="./assets/img/banner_slide_4.jpg" alt="Picture of a building" class="slider-slide__img">
+            </div>
+            <div class="slider-slide">
+                <div class="slider__content sl-content">
+                    <h2 class="slider__content--title ">SIMPLE & MODERN</h2>
+                    <h4 class="slider__content--subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
+                    <a href="#main">
+                        <img src="./assets/img/svg/arrow-header.svg" alt="arrow" class="arrow">
+                    </a>
+                </div>
+                <img src="./assets/img/banner_slide_5.jpg" alt="Picture of a building" class="slider-slide__img">
+            </div>
+        </section>
+    </header>
+    <main class="main" id="main">
+        <article class="article-projects" id="projects">
+            <h2 class="article-title">What we do</h2>
+            <section class="project project__trade">
+                <div class="project-img-wrap">     
+                    <img src="./assets/img/trade_center.png" alt="Picture of Trade Center" class="project__img">
+                </div>
+                <div class="project__description">
+                    <h3 class="project__subtitle">One world</h3>                
+                     <h2 class="project__title">Trade Center</h2>
+                     <p class="project__text">Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+                     <button class="project__btn btn" id="trade">More details</button>
+                     <p class="project__details project__details--trade">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, enim corrupti veniam rerum a distinctio sunt quam cupiditate totam nulla repellendus expedita fugiat eligendi quo iure veritatis ipsum? Reiciendis vel tenetur a praesentium? Iusto harum rerum illo repellendus minima excepturi rem repudiandae deleniti nesciunt vel quaerat magni provident corporis aperiam adipisci esse soluta labore sed, quod numquam iure aut cum. </p>
+                     <p class="project__location"><i class="fa-solid fa-location-dot"></i>New York City, United States - 1776 feet </p>
+                </div>    
+            </section>
+            <section class="project commerce">
+                <div class="project__description project__description--commerce">
+                    <h3 class="project__subtitle">International</h3>                
+                    <h2 class="project__title">Commerce Center</h2>
+                    <p class="project__text">Successful businesses have many things incommon, today we’ll look at the big ‘R’ of recognition and how a digitaladvertising network may help.</p>
+                    <button class="project__btn btn" id="commerce">More details</button>
+                    <p class="project__details project__details--commerce">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error reiciendis vitae cupiditate nam esse ipsum aspernatur molestiae. Rem odit dolorem doloremque perspiciatis, maiores id deserunt aut, reiciendis tenetur mollitia est labore beatae error ducimus iste eaque atque, reprehenderit nobis ex. Eum illo perferendis commodi debitis corporis vitae earum nemo illum!</p>
+                
+                    <p class="project__location"><i class="fa-solid fa-location-dot"></i>Hong Kong - 1588 feet </p>
+                </div>  
+                <div class="project-img-wrap">
+                    <img src="./assets/img/commerce_center.png" alt="Picture of Trade Center" class="project__img">
+                </div>  
+            </section>
+        </article>
+        <article class="section-news" id="news">
+            <h2 class="article-title">Latest news</h2>
+            <div class="slider-2">
+                <div class=" slide">
+                    <img src="./assets/img/slide_1.png" alt="Picture of the building" class="slide__img">
+                    <div class="slide__descr">
+                        <h3 class="slide__title">See the unmatched beauty of the great.</h3>
+                        <p class="slide__text">Free directories: directories are perfect for customers that are searching for...</p>
+                        <div class="slide__author-wrap">
+                            <div>
+                                <img src="./assets/img/avatar_1.png" alt="Avatar of Alja Brun" class="slide__avatar">
+                            </div>
+                            <div>
+                                <p class="slide__author">Alja Brun</p>
+                                <p class="slide__date">20 Jan 2020</p>
+                            </div>    
+                      </div>
+                    </div>    
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slide_2.png" alt="Picture of the building" class="slide__img">
+                    <div class="slide__descr">
+                        <h3 class="slide__title">Effective advertising pointers.</h3>
+                        <p class="slide__text">Having a home based business is a wonderful to your life...</p>
+                        <div class="slide__author-wrap">
+                            <div>
+                                <img src="./assets/img/avatar_2.png" alt="Avatar of Dominic Freeman" class="slide__avatar">
+                            </div>
+                            <div>
+                                <p class="slide__author">Dominic Freeman</p>
+                                <p class="slide__date">13 Dec 2019</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slide_3.png" alt="Picture of the building" class="slide__img">
+                    <div class="slide__descr">
+                        <h3 class="slide__title">Hypnotize yourself into the ghost.</h3>
+                        <p class="slide__text">There are many things that are important to catalog design...</p>
+                        <div class="slide__author-wrap">
+                            <div>
+                                <img src="./assets/img/avatar_3.png" alt="Avatar of Alice Ward" class="slide__avatar">
+                            </div>
+                            <div>
+                                <p class="slide__author">Alice Ward</p>
+                                <p class="slide__date">30 Nov 2019</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slide_1.png" alt="Picture of the building" class="slide__img">
+                    <div class="slide__descr">
+                        <h3 class="slide__title">See the unmatched beauty of the great.</h3>
+                        <p class="slide__text">Free directories: directories are perfect for customers that are searching for...</p>
+                        <div class="slide__author-wrap">
+                            <div>
+                                <img src="./assets/img/avatar_1.png" alt="Avatar of Alja Brun" class="slide__avatar">
+                            </div>
+                            <div>
+                                <p class="slide__author">Alja Brun</p>
+                                <p class="slide__date">20 Jan 2020</p>
+                            </div>    
+                      </div>
+                    </div>    
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slide_2.png" alt="Picture of the building" class="slide__img">
+                    <div class="slide__descr">
+                        <h3 class="slide__title">Effective advertising pointers.</h3>
+                        <p class="slide__text">Having a home based business is a wonderful to your life...</p>
+                        <div class="slide__author-wrap">
+                            <div>
+                                <img src="./assets/img/avatar_2.png" alt="Avatar of Dominic Freeman" class="slide__avatar">
+                            </div>
+                            <div>
+                                <p class="slide__author">Dominic Freeman</p>
+                                <p class="slide__date">13 Dec 2019</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class=" slide">
+                    <img src="./assets/img/slide_3.png" alt="Picture of the building" class="slide__img">
+                    <div class="slide__descr">
+                        <h3 class="slide__title">Hypnotize yourself into the ghost.</h3>
+                        <p class="slide__text">There are many things that are important to catalog design...</p>
+                        <div class="slide__author-wrap">
+                            <div>
+                                <img src="./assets/img/avatar_3.png" alt="Avatar of Alice Ward" class="slide__avatar">
+                            </div>
+                            <div>
+                                <p class="slide__author">Alice Ward</p>
+                                <p class="slide__date">30 Nov 2019</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+        </article>
+        <section class="section gallery" >
+            <h2 class="article-title">Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery__item gallery__item--1">
+                    <img src="./assets/img/gallery-image_1.png" alt="Picture of a building" class="gallery__img">
+                </div>
+                <div class="gallery__item">
+                    <img src="./assets/img/gallery-image_2.png" alt="Picture of a building" class="gallery__img">
+                </div>
+                <div class="gallery__item">
+                    <img src="./assets/img/gallery-image_3.png" alt="Picture of a building" class="gallery__img">
+                </div>
+                <div class="gallery__item">
+                    <img src="./assets/img/gallery-image_4.png" alt="Picture of a building" class="gallery__img">
+                </div>
+                <div class="gallery__item">
+                    <img src="./assets/img/gallery-image_5.png" alt="Picture of a building" class="gallery__img">
+                </div>
+                <div class="gallery__item gallery__item--hidden">
+                    <img src="./assets/img/gallery-image_5.png" alt="Picture of a building" class="gallery__img">
+                </div>  
+                <div class="gallery__item gallery__item--hidden">
+                    <img src="./assets/img/gallery-image_4.png" alt="Picture of a building" class="gallery__img">
+                </div> 
+                <div class="gallery__item gallery__item--hidden">
+                    <img src="./assets/img/gallery-image_3.png" alt="Picture of a building" class="gallery__img">
+                </div> 
+                <div class="gallery__item gallery__item--hidden">
+                    <img src="./assets/img/gallery-image_1.png" alt="Picture of a building" class="gallery__img">
+                </div>    
+            </div>
+            
+            <button class="btn gallery__btn" >See more</button>
+        </section>
+        <section class="section contact" id="contact">
+            <div class="map" id="map"></div>
+            <div class="contact-container">
+                <h2 class="contact__title article-title">Get in touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact__info">
+                        <p class="contact__address"><i class="fa-solid fa-location-dot"></i>91 Nolan Extensions Suite 670</p>
+                        <a href="tel:+0013568682454" class="contact__phone"><i class="fa-solid fa-phone"></i>+001 356-868-2454</a>
+                        <a href="mailto:montichello@service.com" class="contact__site"><i class="fa-solid fa-inbox"></i>montichello@service.com</a>
+                        <p class="contact__hours"><i class="fa-regular fa-clock"></i>From 07:05AM to 19:30PM</p>
+                    </div>
+                    <form method="get" class="contact__form">
+                        <input type="text" id="name" placeholder="Molli Medina" class="input-text" required>
+                        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" class="input-email" required>
+                        <button class="btn btn-submit" type="submit">Submit</button>
+                    </form>
+                </div>   
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="about">
+        <div class="footer-container">
+            <div class="footer-navigation">
+                <img src="./assets/img/svg/logo.svg" alt="Company Logo" class="logo-img">
+                <nav class="nav nav-social">
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="#" class = "social__link">
+                                <img src="./assets/img/svg/facebook.svg" alt="Facebook Icon" class="social__link--img">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class = "social__link">
+                                <img src="./assets/img/svg/twitter.svg" alt="Twitter Icon" class="social__link--img">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class = "social__link">
+                                <img src="./assets/img/svg/insta.svg" alt="Insta Icon" class="social__link--img">
+                            </a>
+                        </li>
+                    </ul>    
+                </nav>  
+            </div>
+            <p class="copyright">Copyrights © 2020 Montichello</p>
+        </div>    
+    </footer>
+    <script src = "./js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
+    <script src = "./js/slider.js"></script> 
+    <script src = "./js/main.js"></script>
+    <script src = "./js/gallery.js"></script>
+    <script src="./js/maps_api.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiSi5IlO8wmZmtBiQOcL9qjpfTp3ckKUo&callback=initMap"></script> 
+</body>
+</html>

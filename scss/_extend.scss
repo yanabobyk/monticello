@@ -1,0 +1,40 @@
+%hover-shared{
+    opacity: .7;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+%btn-shared{
+    border: 1px solid #2C4058;
+    color: #000000;
+    padding: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    @include font('Montserrat', 14px, none, 1.2em);
+    background: white;
+    width: 190px;
+    &:hover{
+        background: linear-gradient(243.43deg, #7e5affac 16.9%, #55b8ffae 83.27%);
+    }
+}
+
+%input-shared {
+    height: 41px;
+    width: 310px;
+    padding-bottom: 14px;
+    border: none;
+    border-bottom: 1px solid #2C4058;
+    opacity: .2;
+    &:focus{
+        outline: none;
+        opacity: 1;
+    }
+    &::placeholder{
+        color: #4B5562;
+        &:focus{
+            color:#2C4058;
+        }
+    }
+
+}
